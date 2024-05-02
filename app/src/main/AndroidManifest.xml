@@ -13,10 +13,19 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name="com.rozogar.hazaragi.ui.theme.Main"
+            android:name="com.rozogar.hazaragi.ui.theme.Playpage"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             />
+
+        <activity
+            android:name="com.rozogar.hazaragi.ui.theme.Home"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.rozogar.hazaragi.ui.theme.Main"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name="com.rozogar.hazaragi.ui.theme.SplashPage"
             android:exported="true"

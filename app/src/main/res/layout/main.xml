@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:padding="5dp"
+    android:background="#59C8FF">
+
+    <RelativeLayout
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#448AFF"
+        tools:context=".ui.theme.Home">
+
+        <Button
+            android:id="@+id/btnstop"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/btnplay"
+            android:background="#D94B4B"
+            android:text="توقف" />
+
+        <Button
+            android:id="@+id/btnplay"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="36dp"
+            android:layout_toEndOf="@+id/imgpic"
+            android:background="#D94B4B"
+            android:text="پخش" />
+
+        <ImageView
+            android:id="@+id/imgpic"
+            android:layout_width="109dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/b" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toEndOf="@+id/imgpic"
+            android:background="#808080"
+            android:textAlignment="center"
+            android:textColor="#000607"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</RelativeLayout>
