@@ -11,21 +11,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/sadaf"
+        app:srcCompat="@drawable/splash"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="68dp" />
+        tools:layout_editor_absoluteY="35dp" />
 
     <TextView
         android:id="@+id/txtsplash"
         android:layout_width="316dp"
         android:layout_height="76dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="488dp"
         android:text="Hazaragi Music"
         android:textAlignment="center"
-        android:textColor="#F5F5F8"
+        android:textColor="#F99A21"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

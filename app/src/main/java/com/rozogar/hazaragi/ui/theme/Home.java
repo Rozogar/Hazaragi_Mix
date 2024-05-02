@@ -25,14 +25,6 @@ private ArrayList<Music> m;
         filadapter();
 
 
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(Home.this, Playpage.class);
-                startActivity(intent);
-            }
-        });
-
 
 
     }
@@ -45,9 +37,9 @@ private ArrayList<Music> m;
     private void filling() {
         m = new ArrayList<>();
         m.add(new Music( R.drawable.a,R.raw.khantoma,"خنتوما"));
-        m.add(new Music( R.drawable.d,R.raw.mix,"میکس هزارگی"));
-        m.add(new Music( R.drawable.bb,R.raw.awal,"احوال بند دل"));
-        m.add(new Music( R.drawable.c,R.raw.anaranar,"انار انار"));
+        m.add(new Music( R.drawable.ger,R.raw.mix,"میکس هزارگی"));
+        m.add(new Music( R.drawable.fone,R.raw.awal,"احوال بند دل"));
+        m.add(new Music( R.drawable.hi,R.raw.anaranar,"انار انار"));
         m.add(new Music( R.drawable.j,R.raw.delbar,"دلبر"));
         m.add(new Music( R.drawable.e,R.raw.azsharbaqarya,"از شار به قریه"));
         m.add(new Music( R.drawable.n,R.raw.khandida,"خندیده میآیی"));
@@ -65,7 +57,7 @@ private ArrayList<Music> m;
         m.add(new Music( R.drawable.f,R.raw.balidel,"بلا دل"));
         m.add(new Music( R.drawable.aa,R.raw.sharabjan,"میده میده"));
         m.add(new Music( R.drawable.l,R.raw.eshqiman,"عشق من"));
-        m.add(new Music( R.drawable.bb,R.raw.dokhtarihazara,"دخت هزاره"));
+        m.add(new Music( R.drawable.cute,R.raw.dokhtarihazara,"دخت هزاره"));
         m.add(new Music( R.drawable.o,R.raw.khyalto,"خیال تو"));
         m.add(new Music( R.drawable.cc,R.raw.tokimaeee,"تو کی میآیی"));
 

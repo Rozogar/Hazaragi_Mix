@@ -11,20 +11,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/fone"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="194dp" />
+        app:srcCompat="@drawable/ger"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-56dp" />
 
     <Button
         android:id="@+id/btnsongs"
         android:layout_width="197dp"
         android:layout_height="58dp"
-        android:layout_marginTop="496dp"
+        android:layout_marginTop="480dp"
         android:background="#821212"
         android:text="songs"
         android:textColor="#F4F0F0"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,13 +33,13 @@
         android:id="@+id/btnexit"
         android:layout_width="199dp"
         android:layout_height="55dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="#771111"
         android:text="exit"
         android:textColor="#F5F1F1"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnsongs" />
 </androidx.constraintlayout.widget.ConstraintLayout>
